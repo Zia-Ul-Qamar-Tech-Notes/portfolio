@@ -6,7 +6,7 @@ import { useTheme } from "../../context/ThemeContext";
 import { FaMoon } from "react-icons/fa";
 import { WiDaySunny } from "react-icons/wi";
 import { Link } from "react-scroll";
-import Fade from "react-reveal/Fade";
+// import Fade from "react-reveal/Fade";
 
 function Home() {
   const [theme, setTheme] = useTheme();
@@ -20,37 +20,37 @@ function Home() {
       </div>
       <div className="home-container container-fluid">
         <div className="container home-content">
-          <Fade right>
-            <h1>Hi, I'm a </h1>
-            <h2>
-              <Typewriter
-                options={{
-                  strings: [
-                    "Web Developer",
-                    "Python Developer",
-                    "Software Developer",
-                  ],
-                  autoStart: true,
-                  loop: true,
-                }}
-              />
-            </h2>
-          </Fade>
-          <Fade bottom>
-            <div className="home-buttons">
-              <a
-                className="btn hire-me"
-                href="https://api.whatsapp.com/send?phone=03365083042"
-                rel="noreferrer"
-                target="_blank"
-              >
-                Hire me
-              </a>
-              <a className="btn resume" href={Resume} download="zia_resume.pdf">
-                Resume
-              </a>
-            </div>
-          </Fade>
+          {/* <Fade right> */}
+          <h1>Hi, I'm a </h1>
+          <h2>
+            <Typewriter
+              options={{
+                strings: [
+                  "Web Developer",
+                  "Python Developer",
+                  "Software Developer",
+                ],
+                autoStart: true,
+                loop: true,
+              }}
+            />
+          </h2>
+          {/* </Fade> */}
+          {/* <Fade bottom> */}
+          <div className="home-buttons">
+            <a
+              className="btn hire-me"
+              href="https://api.whatsapp.com/send?phone=03365083042"
+              rel="noreferrer"
+              target="_blank"
+            >
+              Hire me
+            </a>
+            <a className="btn resume" href={Resume} download="zia_resume.pdf">
+              Resume
+            </a>
+          </div>
+          {/* </Fade> */}
         </div>
       </div>
     </div>
