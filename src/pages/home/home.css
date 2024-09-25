@@ -1,0 +1,63 @@
+.home-container{
+    height: 300px;
+    width:100%;
+    color: white;
+    padding-left: 130px;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    align-items: center;
+}
+.home-content h1{
+    padding: 10px;
+    /* margin-top: 20px; */
+    padding-top: 60px;
+}
+.home-content h2{
+    color: #e0b50f;
+}
+
+.home-buttons{
+    margin-top: 40px;
+
+}
+.home-buttons .hire-me{
+    background-color: #3b8ff3;
+    color: white;
+    width: 160px;
+}
+.home-buttons .hire-me:hover{
+    background-color: white;
+    color: #3b8ff3;
+    width: 200px;
+    font-weight: bold;
+    transition: 1s;
+}
+.home-buttons .resume{
+    background-color: #f29f67;
+    color: white;
+    margin-left: 15px;
+}
+.home-buttons .resume:hover{
+    background-color: white;
+    color: #3b8ff3;
+    opacity: 80%;
+    width: 150px;
+    font-weight: bold;
+    transition: 1s;
+}
+.theme-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    background-color: #2772d5;
+    margin-top: 20px;
+    text-align: center;
+    position: fixed;
+    cursor: pointer;
+    z-index: 1;
+    right: 10px;
+    border-radius: 15px;
+    
+}

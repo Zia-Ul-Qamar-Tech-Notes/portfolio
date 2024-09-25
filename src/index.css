@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#dark{
+  background-color: #5f264a;
+  color: #f4eee0;
+}
+#dark .about{
+  box-shadow: none;
+  background-color: rgba(0, 0, 0, 0.15);
+
+}
+#dark .about-content h1{
+  color: #b0a4a4;
+  border-bottom: 2px solid #b0a4a4;
+}
+#dark .theme-btn{
+  background-color: #f3f5f6;
+  color: rgb(23, 22, 22);
+}
+#light .theme-btn{
+  background-color: #1e3c4b;
+  color: white;
+}
+@media (max-width: 600px) {
+  .about{
+    margin-left: 15px;
+  }
+  .contact{
+    margin-left: 15px;
+  }
+  .education{
+    padding-left: 15px;
+  }
+  .home-container{
+    padding-left: 15px;
+  }
+  .projects{
+    padding-left: 15px;
+  }
+  .projects .card{
+    margin-bottom: 30px;
+  }
+  .techstack{
+    padding-left: 15px;
+  }
+  .work{
+    padding-left: 15px;
+  }
+}
