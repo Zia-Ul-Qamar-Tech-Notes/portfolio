@@ -57,8 +57,16 @@
     font-weight: bold;
     transition: 1s;
 }
+.home-buttons .resume:hover{
+  background-color: white;
+  color: #3b8ff3;
+  opacity: 80%;
+  /* width: 150px; */
+  font-weight: bold;
+  transition: 1s;
+}
 footer{
-  padding: 4px;
-  margin-top: 10px;
+    padding: 4px;
+    margin-top: 10px;
 }
 }
