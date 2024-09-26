@@ -28,7 +28,7 @@
 .home-buttons .hire-me:hover{
     background-color: white;
     color: #3b8ff3;
-    width: 200px;
+    /* width: 200px; */
     font-weight: bold;
     transition: 1s;
 }
@@ -41,7 +41,7 @@
     background-color: white;
     color: #3b8ff3;
     opacity: 80%;
-    width: 150px;
+    /* width: 150px; */
     font-weight: bold;
     transition: 1s;
 }
