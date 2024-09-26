@@ -12,15 +12,12 @@ function About() {
           <div className="col-md-6 col-xl-6 col-lg-6 about-content">
             <h1>About Me</h1>
             <p>
-              I am Mirza Zia Ul Qamar, a software developer with a Bachelor's in
-              Computer Science from the University of Gujrat and a Full Stack
-              Developer certification from Meta. I specialize in Python,
-              JavaScript, and web development frameworks. My experience includes
-              building event organizing and e-ticketing systems, sentiment
-              analysis applications, and AI-based projects. I excel in CSS,
-              MERN, DBMS, Git, ReactJS, and more, and possess strong
-              communication and leadership skills. Eager to contribute to
-              innovative projects.
+              I am Mirza Zia Ul Qamar, A passionate and dedicated Software
+              Engineer with a Bachelor’s in Computer Science, a Certified
+              Developer from Meta through Coursera, I have developed a strong
+              foundation in both front-end and back-end technologies.. A fast
+              and eager learner, I am highly motivated, hard-working and detail
+              oriented. and I would love to work with your Company.
             </p>
           </div>
         </div>

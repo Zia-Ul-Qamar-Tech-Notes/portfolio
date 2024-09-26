@@ -11,7 +11,10 @@ function Techstack() {
         {/* <RubberBand> */}
         <h2 className="col-md-12 mt-3 mb-1 text-center">Technologies Stack</h2>
         <hr />
-        <p className="text-center pb-3">😎 Mern Developer - API Developer</p>
+        <p className="text-center pb-3">
+          😎 Python Developer - Mern Developer - Software Engineer - API
+          Developer
+        </p>
         {/* </RubberBand> */}
         <div className="row">
           {TechStackList.map((tech) => (
