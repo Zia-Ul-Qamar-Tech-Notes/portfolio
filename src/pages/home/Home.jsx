@@ -26,9 +26,9 @@ function Home() {
             <Typewriter
               options={{
                 strings: [
-                  "Web Developer",
+                  "Software Engineer",
+                  "MERN Stack Web Developer",
                   "Python Developer",
-                  "Software Developer",
                 ],
                 autoStart: true,
                 loop: true,

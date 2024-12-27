@@ -18,7 +18,6 @@ const Project = () => {
               <div className="card-image-overly m-auto mt-3">
                 <span className="card-detail-badge">Typescript</span>
                 <span className="card-detail-badge">Nextjs</span>
-                <span className="card-detail-badge">Clerk</span>
                 <span className="card-detail-badge">MongoDB</span>
               </div>
               <div className="card-body">
@@ -28,6 +27,56 @@ const Project = () => {
                 <a
                   className="ad-btn"
                   href="https://uni-connect-seven.vercel.app/"
+                  target="_blank"
+                >
+                  View
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-4">
+            <div className="card rounded">
+              <div className="card-image">
+                <span className="card-notify-badge">Chrome Extension</span>
+                <img src="./icon-128.jpg" alt="UniConnect" />
+              </div>
+              <div className="card-image-overly m-auto mt-3">
+                <span className="card-detail-badge">HTML</span>
+                <span className="card-detail-badge">CSS</span>
+                <span className="card-detail-badge">JavaScript</span>
+              </div>
+              <div className="card-body">
+                <div className="ad-title m-auto">
+                  <h5 className="text-uppercase">Links Auto Open</h5>
+                </div>
+                <a
+                  className="ad-btn"
+                  href="https://github.com/Zia-Ul-Qamar-Tech-Notes/Link-Saver-Auto-Open-Links-Extension"
+                  target="_blank"
+                >
+                  View
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-4">
+            <div className="card rounded">
+              <div className="card-image">
+                <span className="card-notify-badge">Frontend</span>
+                <img src="./images (3).jpeg" alt="UniConnect" />
+              </div>
+              <div className="card-image-overly m-auto mt-3">
+                <span className="card-detail-badge">HTML</span>
+                <span className="card-detail-badge">CSS</span>
+                <span className="card-detail-badge">JavaScript</span>
+              </div>
+              <div className="card-body">
+                <div className="ad-title m-auto">
+                  <h5 className="text-uppercase">A1 Music Player</h5>
+                </div>
+                <a
+                  className="ad-btn"
+                  href="https://github.com/Zia-Ul-Qamar-Tech-Notes/A1-Music-PlayerDemo"
                   target="_blank"
                 >
                   View

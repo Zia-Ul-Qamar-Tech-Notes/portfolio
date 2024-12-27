@@ -47,7 +47,7 @@ const Contact = () => {
                     <h6>
                       Contact With
                       <a
-                        href="https://www.linkedin.com/in/mirza-zia-ul-qamar/"
+                        href="https://www.linkedin.com/in/zia-mern-developer/"
                         target="_blank"
                       >
                         <BsLinkedin color="blue" size={30} className="ms-2" />

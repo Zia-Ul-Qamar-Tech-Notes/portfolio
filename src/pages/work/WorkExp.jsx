@@ -23,7 +23,7 @@ const WorkExp = () => {
             icon={<SiReact />}
           >
             <h3 className="vertical-timeline-element-title">
-              Software Developer
+              Software Engineer
             </h3>
             <h4 className="vertical-timeline-element-subtitle">
               Freelance, Remote
@@ -39,7 +39,7 @@ const WorkExp = () => {
             icon={<SiReact />}
           >
             <h3 className="vertical-timeline-element-title">
-              Web Developer - FYP
+              MERN Web Developer - FYP
             </h3>
             <h4 className="vertical-timeline-element-subtitle">Gujrat, PK</h4>
             <p>
