@@ -38,7 +38,7 @@ const Project = () => {
             <div className="card rounded">
               <div className="card-image">
                 <span className="card-notify-badge">Chrome Extension</span>
-                <img src="./icon-128.jpg" alt="UniConnect" />
+                <img src="./icon-128.jpg" alt="Links Auto Open" />
               </div>
               <div className="card-image-overly m-auto mt-3">
                 <span className="card-detail-badge">HTML</span>
@@ -63,20 +63,23 @@ const Project = () => {
             <div className="card rounded">
               <div className="card-image">
                 <span className="card-notify-badge">Frontend</span>
-                <img src="./images (3).jpeg" alt="UniConnect" />
+                <img
+                  src="https://www.totalsafety.com/wp-content/themes/totalsafety/images/totalsafety-logo.svg"
+                  alt="Total Safety"
+                />
               </div>
               <div className="card-image-overly m-auto mt-3">
-                <span className="card-detail-badge">HTML</span>
-                <span className="card-detail-badge">CSS</span>
+                <span className="card-detail-badge">React</span>
+                <span className="card-detail-badge">Tailwind</span>
                 <span className="card-detail-badge">JavaScript</span>
               </div>
               <div className="card-body">
                 <div className="ad-title m-auto">
-                  <h5 className="text-uppercase">A1 Music Player</h5>
+                  <h5 className="text-uppercase">Total Safety</h5>
                 </div>
                 <a
                   className="ad-btn"
-                  href="https://github.com/Zia-Ul-Qamar-Tech-Notes/A1-Music-PlayerDemo"
+                  href="https://totalsafetyfront.netlify.app/"
                   target="_blank"
                 >
                   View
