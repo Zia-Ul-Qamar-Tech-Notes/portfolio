@@ -79,7 +79,7 @@ const Project = () => {
                 </div>
                 <a
                   className="ad-btn"
-                  href="https://totalsafetyfront.netlify.app/"
+                  href="https://totalsecurityfront.netlify.app/"
                   target="_blank"
                 >
                   View
