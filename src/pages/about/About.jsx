@@ -14,12 +14,11 @@ function About() {
             <p>
               <i>
                 I am Mirza Zia Ul Qamar, A passionate and dedicated Software
-                Engineer with a Bachelor’s in Computer Science, MERN Stack Web
-                Developer with 1.5+ years of experience designing scalable web
-                applications, optimizing backend performance, and implementing
-                user-centric designs. Proficient in{" "}
+                Engineer with a Bachelor’s in Computer Science, with 1 year of
+                freelance experience of designing scalable web applications,
+                optimizing backend performance, and implementing user-centric
+                designs. Profficient in
                 <b>JavaScript, React.js, MongoDB, Express.js, and Python</b>.
-                Skilled in delivering projects with measurable impact.
               </i>
             </p>
           </div>
