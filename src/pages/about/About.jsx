@@ -18,7 +18,7 @@ function About() {
                 freelance experience of designing scalable web applications,
                 optimizing backend performance, and implementing user-centric
                 designs. Profficient in
-                <b>JavaScript, React.js, MongoDB, Express.js, and Python</b>.
+                <b> JavaScript, React.js, MongoDB, Express.js, and Python</b>.
               </i>
             </p>
           </div>
