@@ -26,6 +26,22 @@ const WorkExp = () => {
               Software Engineer
             </h3>
             <h4 className="vertical-timeline-element-subtitle">
+              Shahtez Softwares PVT LTD, Onsite
+            </h4>
+            <p>Full Stack Debugging, Development & Deployment</p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{ background: "#f1e3e3", color: "Black" }}
+            contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+            date="2022 - 2024"
+            iconStyle={{ background: "#1e1e2c", color: "#fff" }}
+            icon={<SiReact />}
+          >
+            <h3 className="vertical-timeline-element-title">
+              Software Engineer
+            </h3>
+            <h4 className="vertical-timeline-element-subtitle">
               Freelance, Remote
             </h4>
             <p>Debugging, Development & Testing</p>
