@@ -18,7 +18,7 @@ const WorkExp = () => {
             className="vertical-timeline-element--work"
             contentStyle={{ background: "#f1e3e3", color: "Black" }}
             contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
-            date="2022 - 2024"
+            date="Feb 2025 - Present"
             iconStyle={{ background: "#1e1e2c", color: "#fff" }}
             icon={<SiReact />}
           >

@@ -1,8 +1,10 @@
 import { MdOutlineHtml } from "react-icons/md";
 import { BsFiletypeCss } from "react-icons/bs";
 import { RiJavascriptFill } from "react-icons/ri";
+import { RiTypescriptFill } from "react-icons/ri";
 import { SiExpress } from "react-icons/si";
 import { FaReact } from "react-icons/fa6";
+import { FaNext } from "react-icons/fa6";
 import { FaPython } from "react-icons/fa";
 import { SiMysql } from "react-icons/si";
 import { SiMongodb } from "react-icons/si";
@@ -25,6 +27,11 @@ export const TechStackList = [
     _id: 3,
     name: "JavaScript",
     icon: RiJavascriptFill,
+  },
+  {
+    _id: 3,
+    name: "TypeScript",
+    icon: RiTypescriptFill,
   },
   {
     _id: 4,
