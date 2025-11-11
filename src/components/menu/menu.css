@@ -28,7 +28,7 @@
 .active{
     color: #e0b50f;
     text-decoration: none;
-    border-left: 5px solid #f29f67;
+    box-shadow: inset 5px 0 0 #f29f67;
     padding-left: 10px;
 }
 
