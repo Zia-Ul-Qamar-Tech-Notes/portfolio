@@ -1,12 +1,10 @@
 import { useEffect } from "react";
 import { trackPageView } from "./ga";
 
-const PageTracker = (pageTitle) => {
-  const location = window.location.pathname
-
+const PageTracker = (pageName ) => {
   useEffect(() => {
-    trackPageView(location, pageTitle);
-  }, [location, pageTitle]);
+    trackPageView(window.location.pathname, pageName);
+  }, [pageName]);
 
   return null;
 };

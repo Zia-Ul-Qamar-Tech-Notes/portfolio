@@ -16,7 +16,7 @@ function App() {
   const [theme] = useTheme();
   return (
     <>
-    <PageTracker pageTitle="Home" />
+    <PageTracker pageTitle={"Home"} />
       <div id={theme}>
         <MobileNav />
         <Layout />
