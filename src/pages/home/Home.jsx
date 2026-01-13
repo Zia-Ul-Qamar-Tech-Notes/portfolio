@@ -1,11 +1,10 @@
-import React from "react";
 import "./home.css";
 import Typewriter from "typewriter-effect";
 import Resume from "../../assets/docs/resume.pdf";
 import { useTheme } from "../../context/ThemeContext";
 import { FaMoon } from "react-icons/fa";
 import { WiDaySunny } from "react-icons/wi";
-import { Link } from "react-scroll";
+import { AnalyticsEvents } from "../../analytics/events";
 // import Fade from "react-reveal/Fade";
 
 function Home() {
@@ -21,7 +20,7 @@ function Home() {
       <div className="home-container container-fluid">
         <div className="container home-content">
           {/* <Fade right> */}
-          <h1>Hi, I'm a </h1>
+          <h1>Hi, I am a </h1>
           <h2>
             <Typewriter
               options={{
@@ -46,7 +45,7 @@ function Home() {
             >
               Hire me
             </a>
-            <a className="btn resume" href={Resume} download="zia_resume.pdf">
+            <a onClick={AnalyticsEvents.downloadResume} className="btn resume" href={Resume} download="zia_resume.pdf">
               Resume
             </a>
           </div>

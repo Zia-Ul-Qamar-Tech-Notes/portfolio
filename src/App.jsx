@@ -9,11 +9,14 @@ import "./App.css";
 import ScrollToTop from "react-scroll-to-top";
 import { useTheme } from "./context/ThemeContext";
 import MobileNav from "./components/MobileNav/MobileNav";
+import PageTracker from "./analytics/PageTracker";
 
 function App() {
+  
   const [theme] = useTheme();
   return (
     <>
+    <PageTracker pageTitle="Home" />
       <div id={theme}>
         <MobileNav />
         <Layout />

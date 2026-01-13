@@ -13,10 +13,11 @@ export const initGA = () => {
 };
 
 // Global page view tracker
-export const trackPageView = (path) => {
+export const trackPageView = (path, pageTitle) => {
   ReactGA.send({
     hitType: "pageview",
     page: path,
+    title: pageTitle,
   });
 };
 

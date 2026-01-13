@@ -1,13 +1,12 @@
 import { useEffect } from "react";
-import { useLocation } from "react-router-dom";
 import { trackPageView } from "./ga";
 
-const PageTracker = () => {
-  const location = useLocation();
+const PageTracker = (pageTitle) => {
+  const location = window.location.pathname
 
   useEffect(() => {
-    trackPageView(location.pathname);
-  }, [location]);
+    trackPageView(location, pageTitle);
+  }, [location, pageTitle]);
 
   return null;
 };
