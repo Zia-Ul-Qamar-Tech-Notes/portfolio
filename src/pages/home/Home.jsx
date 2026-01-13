@@ -38,6 +38,7 @@ function Home() {
           {/* <Fade bottom> */}
           <div className="home-buttons">
             <a
+              onClick={AnalyticsEvents.hireMe}
               className="btn hire-me"
               href="https://api.whatsapp.com/send?phone=03365083042"
               rel="noreferrer"

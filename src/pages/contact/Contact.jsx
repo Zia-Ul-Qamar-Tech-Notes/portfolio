@@ -1,6 +1,6 @@
-import React from "react";
 import "./contact.css";
 import { BsFacebook, BsGithub, BsLinkedin } from "react-icons/bs";
+import { AnalyticsEvents } from "../../analytics/events";
 
 const Contact = () => {
   const onSubmit = async (event) => {
@@ -22,6 +22,7 @@ const Contact = () => {
     }).then((res) => res.json());
 
     if (res.success) {
+      AnalyticsEvents.contactFormSubmit();
       console.log("Success", res);
       alert("Message sent Successfully");
     }
