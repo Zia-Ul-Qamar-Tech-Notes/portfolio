@@ -22,7 +22,7 @@ const Contact = () => {
     }).then((res) => res.json());
 
     if (res.success) {
-      AnalyticsEvents.contactFormSubmit();
+      AnalyticsEvents.contactFormSubmit;
       console.log("Success", res);
       alert("Message sent Successfully");
     }
