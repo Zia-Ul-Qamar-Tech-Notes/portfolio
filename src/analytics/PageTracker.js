@@ -1,10 +1,10 @@
 import { useEffect } from "react";
 import { trackPageView } from "./ga";
-
-const PageTracker = (pageName ) => {
+// eslint-disable-next-line react/prop-types
+const PageTracker = ({ pageTitle }) => {
   useEffect(() => {
-    trackPageView(window.location.pathname, pageName);
-  }, [pageName]);
+    trackPageView(window.location.pathname, pageTitle);
+  }, [pageTitle]);
 
   return null;
 };
