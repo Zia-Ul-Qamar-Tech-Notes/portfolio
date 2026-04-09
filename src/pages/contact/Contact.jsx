@@ -1,8 +1,11 @@
 import "./contact.css";
 import { BsFacebook, BsGithub, BsLinkedin } from "react-icons/bs";
 import { AnalyticsEvents } from "../../analytics/events";
+import { useState } from "react";
+import ReCAPTCHA from "react-google-recaptcha";
 
 const Contact = () => {
+  const [recaptchaToken, setRecaptchaToken] = useState(null);
   const onSubmit = async (event) => {
     event.preventDefault();
     const formData = new FormData(event.target);
@@ -93,10 +96,17 @@ const Contact = () => {
                         className="mb-3"
                       />
                     </div>
+                   
                     <div className="row px-3">
-                      <button className="button">SEND MESSAGE</button>
+                      <button disabled={!recaptchaToken} className="button">SEND MESSAGE</button>
                     </div>
                   </form>
+                   <div className="row px-3">
+                      <ReCAPTCHA
+                        sitekey={import.meta.env.VITE_REACT_RECAPTCHA_SITE_KEY}
+                        onChange={(token) => setRecaptchaToken(token)}
+                      />
+                    </div>
                 </div>
               </div>
             </div>

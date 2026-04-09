@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://portfolio.ziaqamar.online/sitemap.xml
+Sitemap: https://ziaqamar.online/sitemap.xml
