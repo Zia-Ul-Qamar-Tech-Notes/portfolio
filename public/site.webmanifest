@@ -1,0 +1,14 @@
+{
+  "name": "Mirza Zia ul Qamar — Software Engineer Portfolio",
+  "short_name": "Zia Qamar",
+  "description": "Portfolio of Mirza Zia ul Qamar, software engineer and MERN stack developer.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#138781",
+  "icons": [
+    { "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "/apple-touch-icon.png", "sizes": "180x180", "type": "image/png" }
+  ]
+}

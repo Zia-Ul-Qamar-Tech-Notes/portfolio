@@ -1,9 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://ziaqamar.online/</loc>
-    <lastmod>2026-04-09</lastmod>
-    <changefreq>yearly</changefreq>
+    <lastmod>2026-09-10</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://ziaqamar.online/og-image.jpg</image:loc>
+      <image:title>Mirza Zia ul Qamar — Software Engineer</image:title>
+      <image:caption>Mirza Zia ul Qamar, software engineer and MERN stack developer.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ziaqamar.online/profilePic.jpg</image:loc>
+      <image:title>Mirza Zia ul Qamar</image:title>
+      <image:caption>Profile photo of Mirza Zia ul Qamar.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ziaqamar.online/uniconnect.jpg</image:loc>
+      <image:title>UniConnect — Next.js, TypeScript, MongoDB</image:title>
+      <image:caption>UniConnect, a full stack project by Mirza Zia ul Qamar.</image:caption>
+    </image:image>
   </url>
 </urlset>

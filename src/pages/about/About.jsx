@@ -4,13 +4,20 @@ import "./about.css";
 function About() {
   return (
     <>
-      <div className="about ">
+      <section className="about " id="about" aria-labelledby="about-heading">
         <div className="row">
           <div className="col-md-6 col-xl-6 col-lg-6 about-img">
-            <img src="./profilePic.jpg" alt="Image" />
+            <img
+              src="/profilePic.jpg"
+              alt="Mirza Zia ul Qamar, software engineer and MERN stack developer"
+              width="1280"
+              height="2150"
+              loading="lazy"
+              decoding="async"
+            />
           </div>
           <div className="col-md-6 col-xl-6 col-lg-6 about-content">
-            <h1>About Me</h1>
+            <h2 id="about-heading">About Me</h2>
             <p>
               <i>
                 I am Mirza Zia Ul Qamar, A passionate and dedicated Software
@@ -23,7 +30,7 @@ function About() {
             </p>
           </div>
         </div>
-      </div>
+      </section>
     </>
   );
 }

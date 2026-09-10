@@ -28,11 +28,16 @@ function Menu({ toggle }) {
         <>
           {/* <Zoom> */}
           <div className="profile-Pic">
-            <img src="./profilePic.jpg" alt="Profile Pic" />
+            <img
+              src="/profilePic.jpg"
+              alt="Mirza Zia ul Qamar, software engineer"
+              width="1280"
+              height="2150"
+            />
           </div>
           {/* </Zoom> */}
           {/* <Fade left> */}
-          <div className="nav-items">
+          <nav className="nav-items" aria-label="Main navigation">
             <div className="nav-item">
               <Link
                 to="home"
@@ -119,12 +124,12 @@ function Menu({ toggle }) {
                 </div>
               </Link>
             </div>
-          </div>
+          </nav>
           {/* </Fade> */}
         </>
       ) : (
         <>
-          <div className="nav-item-only">
+          <nav className="nav-item-only" aria-label="Main navigation">
             <div className="nav-link">
               <Link
                 to="home"
@@ -202,7 +207,7 @@ function Menu({ toggle }) {
                 <FcVoicePresentation size={30} title="Contact Details" />
               </Link>
             </div>
-          </div>
+          </nav>
         </>
       )}
     </>

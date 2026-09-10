@@ -7,9 +7,11 @@ import { TechStackList } from "../../utils/TechStackList";
 function Techstack() {
   return (
     <>
-      <div id="technology" className="container techstack">
+      <section id="technology" className="container techstack" aria-labelledby="techstack-heading">
         {/* <RubberBand> */}
-        <h2 className="col-md-12 mt-3 mb-1 text-center">Technologies Stack</h2>
+        <h2 id="techstack-heading" className="col-md-12 mt-3 mb-1 text-center">
+          Technologies Stack
+        </h2>
         <hr />
         <p className="text-center pb-3">
           😎 Python Developer - Mern Developer - Software Engineer - API
@@ -28,7 +30,7 @@ function Techstack() {
                         <tech.icon size={25} title={tech.name} />
                       </div>
                       <div className="media-body">
-                        <h5>{tech.name}</h5>
+                        <h3>{tech.name}</h3>
                       </div>
                       {/* </Fade> */}
                     </div>
@@ -38,7 +40,7 @@ function Techstack() {
             </div>
           ))}
         </div>
-      </div>
+      </section>
     </>
   );
 }

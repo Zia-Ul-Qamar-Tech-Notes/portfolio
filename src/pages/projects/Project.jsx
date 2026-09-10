@@ -4,16 +4,25 @@ import "./project.css";
 const Project = () => {
   return (
     <>
-      <div className="container projects" id="projects">
-        <h2 className="col-md-12 mt-3 mb-1 text-center">Top Recent Projects</h2>
+      <section className="container projects" id="projects" aria-labelledby="projects-heading">
+        <h2 id="projects-heading" className="col-md-12 mt-3 mb-1 text-center">
+          Top Recent Projects
+        </h2>
         <hr />
-        <p>Here are my Top Recent Indurstry Level Projects with Live Link</p>
+        <p>Here are my top recent, industry-level projects with live links.</p>
         <div className="row" id="ads">
           <div className="col-md-4">
             <div className="card rounded">
               <div className="card-image">
                 <span className="card-notify-badge">Full Stack</span>
-                <img src="./uniconnect.jpg" alt="UniConnect" />
+                <img
+                  src="/uniconnect.jpg"
+                  alt="UniConnect - full stack university networking app built with Next.js, TypeScript and MongoDB"
+                  width="1280"
+                  height="720"
+                  loading="lazy"
+                  decoding="async"
+                />
               </div>
               <div className="card-image-overly m-auto mt-3">
                 <span className="card-detail-badge">Typescript</span>
@@ -28,6 +37,8 @@ const Project = () => {
                   className="ad-btn"
                   href="https://uni-connect-seven.vercel.app/"
                   target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="View the UniConnect live project"
                 >
                   View
                 </a>
@@ -38,7 +49,14 @@ const Project = () => {
             <div className="card rounded">
               <div className="card-image">
                 <span className="card-notify-badge">Chrome Extension</span>
-                <img src="./icon-128.jpg" alt="Links Auto Open" />
+                <img
+                  src="/icon-128.jpg"
+                  alt="Links Auto Open - Chrome extension built with HTML, CSS and JavaScript"
+                  width="128"
+                  height="128"
+                  loading="lazy"
+                  decoding="async"
+                />
               </div>
               <div className="card-image-overly m-auto mt-3">
                 <span className="card-detail-badge">HTML</span>
@@ -53,6 +71,8 @@ const Project = () => {
                   className="ad-btn"
                   href="https://github.com/Zia-Ul-Qamar-Tech-Notes/Link-Saver-Auto-Open-Links-Extension"
                   target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="View the Links Auto Open extension on GitHub"
                 >
                   View
                 </a>
@@ -65,7 +85,11 @@ const Project = () => {
                 <span className="card-notify-badge">Frontend</span>
                 <img
                   src="https://www.totalsafety.com/wp-content/themes/totalsafety/images/totalsafety-logo.svg"
-                  alt="Total Safety"
+                  alt="Total Safety - React and Tailwind CSS frontend project"
+                  width="300"
+                  height="80"
+                  loading="lazy"
+                  decoding="async"
                 />
               </div>
               <div className="card-image-overly m-auto mt-3">
@@ -81,6 +105,8 @@ const Project = () => {
                   className="ad-btn"
                   href="https://totalsecurityfront.netlify.app/"
                   target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="View the Total Safety live project"
                 >
                   View
                 </a>
@@ -88,7 +114,7 @@ const Project = () => {
             </div>
           </div>
         </div>
-      </div>
+      </section>
     </>
   );
 };

@@ -10,8 +10,10 @@ import { MdSchool } from "react-icons/md";
 export const Education = () => {
   return (
     <>
-      <div id="education" className="container education">
-        <h2 className="col-md-12 mt-3 mb-1 text-center">Education</h2>
+      <section id="education" className="container education" aria-labelledby="education-heading">
+        <h2 id="education-heading" className="col-md-12 mt-3 mb-1 text-center">
+          Education
+        </h2>
         <hr />
         <VerticalTimeline lineColor="gray">
           <VerticalTimelineElement
@@ -64,7 +66,7 @@ export const Education = () => {
             <p>Physics, Engineering, Mathematics, Chemistry</p>
           </VerticalTimelineElement>
         </VerticalTimeline>
-      </div>
+      </section>
     </>
   );
 };

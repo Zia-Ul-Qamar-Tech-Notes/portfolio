@@ -10,8 +10,10 @@ import { SiReact } from "react-icons/si";
 const WorkExp = () => {
   return (
     <>
-      <div id="experience" className="container work">
-        <h2 className="col-md-12 mt-3 mb-1 text-center">Work Experience</h2>
+      <section id="experience" className="container work" aria-labelledby="experience-heading">
+        <h2 id="experience-heading" className="col-md-12 mt-3 mb-1 text-center">
+          Work Experience
+        </h2>
         <hr />
         <VerticalTimeline lineColor="gray">
           <VerticalTimelineElement
@@ -63,7 +65,7 @@ const WorkExp = () => {
             </p>
           </VerticalTimelineElement>
         </VerticalTimeline>
-      </div>
+      </section>
     </>
   );
 };

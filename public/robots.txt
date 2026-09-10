@@ -1,3 +1,30 @@
+# https://ziaqamar.online/robots.txt
+
 User-agent: *
 Allow: /
+
+# Build artefacts and source maps carry no search value
+Disallow: /*.map$
+
+# Common AI/search crawlers - explicitly welcomed
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+Host: https://ziaqamar.online
+
 Sitemap: https://ziaqamar.online/sitemap.xml

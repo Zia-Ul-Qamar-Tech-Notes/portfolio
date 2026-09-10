@@ -26,23 +26,27 @@ const MobileNav = () => {
   };
   return (
     <>
-      <div className="mobile-nav">
+      <nav className="mobile-nav" aria-label="Mobile navigation">
         <div className="mobile-nav-header">
           {open ? (
             <AiOutlineMenuFold
               size={30}
               className="mobile-nav-icon"
               onClick={handleOpen}
+              role="button"
+              aria-label="Close navigation menu"
             />
           ) : (
             <GiHamburgerMenu
               size={30}
               className="mobile-nav-icon"
               onClick={handleOpen}
+              role="button"
+              aria-label="Open navigation menu"
             />
           )}
 
-          <span className="mobile-nav-title">My Portfolio App</span>
+          <span className="mobile-nav-title">Mirza Zia ul Qamar</span>
         </div>
         {open && (
           <div className="mobile-nav-menu">
@@ -125,7 +129,7 @@ const MobileNav = () => {
                     onClick={handleMenuClick}
                   >
                     <FcPortraitMode />
-                    Work Experince
+                    Work Experience
                   </Link>
                 </div>
                 <div className="nav-link">
@@ -145,7 +149,7 @@ const MobileNav = () => {
             </div>
           </div>
         )}
-      </div>
+      </nav>
     </>
   );
 };

@@ -20,18 +20,25 @@ function App() {
       <div id={theme}>
         <MobileNav />
         <Layout />
-        <div className="container">
-          <About />
-        </div>
-        <div className="container">
-          <Education />
-          <Techstack />
-          <Project />
-          <WorkExp />
-          <Contact />
-        </div>
+        <main>
+          <div className="container">
+            <About />
+          </div>
+          <div className="container">
+            <Education />
+            <Techstack />
+            <Project />
+            <WorkExp />
+            <Contact />
+          </div>
+        </main>
         <footer>
-          <h6 className="text-center">Made by Mirza Zia with ❤ &copy; 2024</h6>
+          {/* Year is baked in at prerender time; suppress the warning for
+              the one page load that straddles a New Year boundary. */}
+          <p className="text-center" suppressHydrationWarning>
+            Made by Mirza Zia ul Qamar with &hearts; &copy;{" "}
+            {new Date().getFullYear()}
+          </p>
         </footer>
         <ScrollToTop
           style={{ backgroundColor: "#138781", borderRadius: "80px" }}
